@@ -40,7 +40,7 @@ public class StudentController {
 
   public void activateStudent() {
     String name = getStudentName();
-    studentService.activateStudent(name);
+    studentService.activateStudent(name );
     studentPresenter.showStudentActivated();
   }
 
